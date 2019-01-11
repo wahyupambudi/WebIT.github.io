@@ -1,2 +1,2 @@
-# WebIT.github.io
-Semua Informasi Tentang WebSite
+# wahyupambudi.github.io
+All Information About Me!
