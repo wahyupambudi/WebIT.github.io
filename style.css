@@ -8,6 +8,27 @@ img{
 	max-width: 100%;
 	height: auto;
 }
+.imgmy{
+	border-radius: 10px;
+	position: relative;
+	margin-left: 43%;
+}
+.tatas{
+	text-align: center;
+	margin: 20 auto;
+	font-size: 80px;
+}
+.tatas1{
+	margin: 0 auto;
+}
+.about {
+	text-align: left;
+	font-size: 18px;
+}
+.logo {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
 
 /* Header */
 header {
@@ -18,12 +39,13 @@ header {
     z-index: 10;
     background-color: #fff;
 }
-header h1 {
+header h1{
 	color: #2f4f4f;
 	position: fixed;
-	left: 14%;
+	left: 250px; 
 	top: 0px;
 }
+
 header h5{
 	color: #2f4f4f;
 	position: fixed;
@@ -32,34 +54,49 @@ header h5{
 	border-top: 1px solid;
 }
 
-.logo {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	}
-	
-.logo1{
-		margin-left: 25px;
-		margin-top: 5px;
-	}
 
-.canvasimg {
-	background-image: url("./img/menara.jpg");
-	height: 90%;
-	max-width:100%;
-    /*width:100%;*/
-    height: auto;
+	/*nav*/
+	nav{
+		float: right;
+		font-size: 20px;
+		right: 10px;
+	}
+	nav ul{
+		list-style: none;
+	}
+	nav ul li{
+		display: inline-table;
+	}
+	nav a:hover{
+		background-color: rgb(44, 111, 178);
+		border-radius: 7px;
+		color: #fff;
+	}
+	nav ul li a{
+		display: block;
+		text-decoration: none;
+		line-height: 30px;
+		padding:0 20px;
+		color: #000;
+	}
 	
-}
-.col{
+/* welcome */
+.col{	
 	color: #fff;
 	background-color: rgba(0, 0, 0, 0.367);
+	margin-top: 150px;
 }
+.atas {
+	background-color: rgba(113, 238, 75, 0.258);
+}
+
 .fld{
 	border: 0px;
 }
 .destination{
 	background-color: rgba(199, 117, 199, 0.258);
 }
+
 .fontur{
 	background-color: #000;
 	color: white;
@@ -178,30 +215,6 @@ header h5{
 h2 fieldset {
 	border: 2px dashed darkblue;
 }
-/*nav*/
-	nav{
-		float: right;
-		font-size: 20px;
-		right: 10px;
-	}
-	nav ul{
-		list-style: none;
-	}
-	nav ul li{
-		display: inline-table;
-	}
-	nav a:hover{
-		background-color: rgb(44, 111, 178);
-		border-radius: 7px;
-		color: #fff;
-	}
-	nav ul li a{
-		display: block;
-		text-decoration: none;
-		line-height: 30px;
-		padding:0 20px;
-		color: #000;
-	}
 	
 /*section*/
 section {
@@ -218,6 +231,7 @@ section h1 {
 	margin-bottom: 50px;
 	margin-top: 50px;
 	font-size: 50px;
+	margin-top: 100px;
 	font-family: 'Arial Narrow', Arial, sans-serif;	
 	color: #2f4f4f;
 }
