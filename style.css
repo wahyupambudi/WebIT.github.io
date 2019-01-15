@@ -52,6 +52,15 @@ header h1 {
 	top: 0px;
 }
 
+.table{
+	border: 1px solid;
+	margin-left: 600px;
+	margin-right: 600px;
+	text-align: center;
+	padding: 2px;
+}
+
+
 	/*nav*/
 nav {
 	float: right;
